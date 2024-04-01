@@ -10,10 +10,12 @@ The template is to be used within the standard `create-react-app` command:
 
 ### With Backpack React Scripts
 
+#### To  run on your local Maachine, 
+
 ```bash
-npx create-react-app my-app --scripts-version=@skyscanner/backpack-react-scripts --template @skyscanner/backpack --use-npm
+git clone https://github.com/aishk20/skyscanner-internship.git
+cd skyscanner-internship
+npm install
+npm start
 ```
 
-# More information
-
-More information on how custom templates are built and used can be found here on the official [create-react-app docs](https://create-react-app.dev/docs/custom-templates/).
